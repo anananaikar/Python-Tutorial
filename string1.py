@@ -55,7 +55,6 @@ def both_ends(s):
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
   # +++your code here+++
-  def fix_start(s):
   ch = s[0]
   for i in range(0, len(s)):
     if s[i]== ch:
@@ -73,7 +72,6 @@ def fix_start(s):
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
   # +++your code here+++
-  def mix_up(a, b):
  c = a[0:2] + b[2:]
  d = b[0:2] + a[2:]
  return d +' '+ c
